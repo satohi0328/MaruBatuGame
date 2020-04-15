@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33578888546952436}
   - component: {fileID: 65176268772265232}
   - component: {fileID: 23291723614300666}
+  - component: {fileID: 114012012577966276}
   m_Layer: 0
   m_Name: BlockPrefab
   m_TagString: Untagged
@@ -95,3 +96,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114012012577966276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1044447923041808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b19e8acd834d4e568e633f5f3eb8820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BastardSwordPrefab: {fileID: 1397977900824214, guid: c6504e40dae004e02a224fd33bcf01cd,
+    type: 2}
+  KnightlyShieldPrefab: {fileID: 1576241849914722, guid: 86a4c608c498a4714b41470a3ae05ddd,
+    type: 2}

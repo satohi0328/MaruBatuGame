@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4862322909890334}
   - component: {fileID: 205591311242401274}
+  - component: {fileID: 114366845906151876}
   m_Layer: 0
   m_Name: BastardSwordPrefab
   m_TagString: Untagged
@@ -344,6 +345,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1663812532034768}
   m_Mesh: {fileID: 4300002, guid: 6cda8b7bfbe8c4504adfce139ae3d1ac, type: 3}
+--- !u!114 &114366845906151876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397977900824214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b19e8acd834d4e568e633f5f3eb8820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BastardSwordPrefab: {fileID: 1397977900824214}
+  KnightlyShieldPrefab: {fileID: 1576241849914722, guid: 86a4c608c498a4714b41470a3ae05ddd,
+    type: 2}
 --- !u!205 &205591311242401274
 LODGroup:
   m_ObjectHideFlags: 1
