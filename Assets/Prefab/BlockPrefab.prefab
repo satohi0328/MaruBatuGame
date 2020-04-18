@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b19e8acd834d4e568e633f5f3eb8820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BastardSwordPrefab: {fileID: 1397977900824214, guid: c6504e40dae004e02a224fd33bcf01cd,
+  bastardSwordPrefab: {fileID: 1397977900824214, guid: c6504e40dae004e02a224fd33bcf01cd,
     type: 2}
-  KnightlyShieldPrefab: {fileID: 1576241849914722, guid: 86a4c608c498a4714b41470a3ae05ddd,
+  knightlyShieldPrefab: {fileID: 1576241849914722, guid: 86a4c608c498a4714b41470a3ae05ddd,
     type: 2}
