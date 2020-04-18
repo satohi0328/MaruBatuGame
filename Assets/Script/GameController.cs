@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
     // 剣(○)Prefab
@@ -186,7 +187,9 @@ public class GameController : MonoBehaviour {
             return true;
         }
         // 全部埋まっている場合(引き分け)
-        if (Mathf.Abs(board_1 + board_2 + board_3 + board_4 + board_5 + board_6 + board_7 + board_8 + board_9) == 9) {
+        if (Mathf.Abs(board_1) + Mathf.Abs(board_2) + Mathf.Abs(board_3) +
+            Mathf.Abs(board_4) + Mathf.Abs(board_5) + Mathf.Abs(board_6) +
+            Mathf.Abs(board_7) + Mathf.Abs(board_8) + Mathf.Abs(board_9) == 9) {
             return true;
         }
         return false;
@@ -292,6 +295,12 @@ public class GameController : MonoBehaviour {
         // ゲームセットフラグを立てる
         gameSetFlg = true;
 
+        Invoke("loadStartScene", 5f);
     }
+
+    private void loadStartScene() {
+        SceneManager.LoadScene("StartScene");
+    }
+
 
 }
